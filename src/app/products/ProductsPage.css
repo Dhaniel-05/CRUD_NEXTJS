@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.productKey {
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid #2d3748;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    color: #2d3748; /* Establecer el color del texto a un tono oscuro */
+}
+
+.productName {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.productPrice {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.productDescription {
+    color: #4a5568; /* Establecer un color de texto más claro para la descripción */
+}
